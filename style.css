@@ -14,7 +14,6 @@ main {
     background-color: hsl(217, 54%, 11%);
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: auto;
     width: 100%;
     height: 100%;
@@ -26,7 +25,6 @@ section {
     max-width: 300px;
     max-height: 500px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-direction: column;
     margin: auto;
@@ -37,15 +35,17 @@ section {
 h1 {
     font-size: 18px;
     color: white;
-    margin: 6px;
-    text-align: right;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
 
 }
 
 p {
     font-size: 15px;
     color:  hsl(215, 51%, 70%);
-    margin: 6px;
+    margin: 5px;
+    padding: 10px;
 
 }
 
@@ -54,6 +54,7 @@ p > span {
 }
 
 section > hr {
+    text-align: center;
     width: 90%;
     opacity: 10%;
 }
@@ -70,6 +71,20 @@ main > section > img {
 main > section > div > p > span {
     color: hsl(178, 100%, 50%);
     font-weight: bold;
+}
+
+
+#valorETempo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#avatar {
+    max-width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 
 footer {
